@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Daily Task Manager</title>
+    <link rel="stylesheet" href="popup.css">
+    <!-- Add Font Awesome for icons (optional) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <h1>Daily Tasks</h1>
+    <div id="date"></div>
+    <ul id="taskList"></ul>
+
+    <button id="addTaskBtn">Add Task</button>
+    
+    <div class="icon-buttons">
+        <!-- Clear All button with tooltip and label -->
+        <button id="clearAllBtn" class="icon-button" title="Clear All Tasks">
+            <i class="fas fa-eraser"></i>
+            <span class="button-label">Clear All</span>
+        </button>
+        
+        <!-- Delete All button with tooltip and label -->
+        <button id="deleteAllBtn" class="icon-button" title="Delete All Tasks">
+            <i class="fas fa-trash"></i>
+            <span class="button-label">Delete All</span>
+        </button>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
