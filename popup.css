@@ -217,3 +217,27 @@ h1 {
   font-size: 24px;
 }
 
+button.playBtn, button.pauseBtn, button.deleteBtn {
+  background-color: #f0f0f0;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  margin-left: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button.playBtn:hover {
+  background-color: #4CAF50; /* Green for Play */
+  color: white;
+}
+
+button.pauseBtn:hover {
+  background-color: #FFA500; /* Orange for Pause */
+  color: white;
+}
+
+button.deleteBtn:hover {
+  background-color: #FF4D4D; /* Red for Delete */
+  color: white;
+}
